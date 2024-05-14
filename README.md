@@ -46,7 +46,7 @@ import 'package:flutter_vision/flutter_vision.dart';
 ```dart
 await vision.loadYoloModel(
         labels: 'assets/labelss.txt',
-        modelPath: 'assets/yolov5n.tflite',
+        modelPath: 'assets/best_float16.tflite',
         modelVersion: "yolov5",
         quantization: false,
         numThreads: 1,
